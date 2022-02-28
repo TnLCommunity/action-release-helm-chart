@@ -13,7 +13,7 @@ Releases helm charts using semantic-release with the @tnlcommunity/release-confi
 <!-- start usage -->
 
 ```yaml
-- uses: tnlcommunity/action-release-helm-chart@undefined
+- uses: TnLCommunity/action-release-helm-chart@undefined
   with:
     # github token to use for the release, if you want this to trigger other workflows
     # such as flows on release created, pass in a PAT
@@ -52,7 +52,7 @@ on:
       - main
       - alpha
     paths:
-      - 'chart/**'
+      - "chart/**"
 jobs:
   release:
     name: Release
