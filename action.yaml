@@ -1,4 +1,4 @@
-name: 'Release helm chart' #
+name: 'Release helm chart'
 description: 'Releases helm charts using semantic-release with the @tnlcommunity/release-config-helm release config. This action uses main and alpha branches and releases. This action deletes the alpha branch and re-creates it from main after a release from main'
 inputs:
   token:
